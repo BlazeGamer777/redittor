@@ -4,7 +4,7 @@ const randomPuppy = require('random-puppy');
 module.exports.run = async (bot, message, args) => {
   if (!message.channel.nsfw) return message.channel.send("This is not an nsfw channel! Nice try! ;)");
 
-  randomPuppy('NintendoWaifus')
+  randomPuppy('nintendowaifus')
         .then(url => {
             const embed = new Discord.RichEmbed()
                 .setTitle("Dem waifus tho.")

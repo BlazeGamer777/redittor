@@ -13,7 +13,14 @@ r/puppy - Classic puppers.`);
   .setDescription(`r/memes - The classic brand.
 r/dankmemes - The dankest there is.
 r/deepfriedmemes - Fried memes. Thats all.
-r/wholesomememes - Need some wholesome memes?`);
+r/wholesomememes - Need some wholesome memes?
+r/greentext - >greentext is awesome.
+r/softwaregore - ικσετ are $1 off!`);
+  
+  let helpnEmbed = new Discord.RichEmbed()
+  .setTitle("NSFW:")
+  .setColor(`#ff4500`)
+  .setDescription(`r/nintendowaifus - Dem nintendo waifus tho.`);
 
   let helpmiscEmbed = new Discord.RichEmbed()
   .setTitle("Misc:")
@@ -22,6 +29,7 @@ r/wholesomememes - Need some wholesome memes?`);
 
   message.channel.send(helpaEmbed);
   message.channel.send(helpmEmbed);
+  message.channel.send(helpnEmbed);
   message.channel.send(helpmiscEmbed);
 }
 

@@ -16,7 +16,8 @@ r/deepfriedmemes - Fried memes. Thats all.
 r/wholesomememes - Need some wholesome memes?
 r/greentext - >greentext is awesome.
 r/softwaregore - ικσετ are $1 off!
-r/catmemes - Cats. Just cats.`);
+r/catmemes - Cats. Just cats.
+r/sbubby - Eef Freef.`);
   
   let helpnEmbed = new Discord.RichEmbed()
   .setTitle("NSFW:")

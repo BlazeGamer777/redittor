@@ -15,7 +15,8 @@ r/dankmemes - The dankest there is.
 r/deepfriedmemes - Fried memes. Thats all.
 r/wholesomememes - Need some wholesome memes?
 r/greentext - >greentext is awesome.
-r/softwaregore - ικσετ are $1 off!`);
+r/softwaregore - ικσετ are $1 off!
+r/catmemes - Cats. Just cats.`);
   
   let helpnEmbed = new Discord.RichEmbed()
   .setTitle("NSFW:")

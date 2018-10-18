@@ -3,6 +3,7 @@ const botconfig = require("./botconfig.json");
 const bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
 const fs = require("fs");
+const token = process.env.token;
 
 fs.readdir("./commands/", (err, files) => {
   if(err) console.log(err);
@@ -50,4 +51,4 @@ bot.on("message", async message => {
 
 });
 
-bot.login(botconfig.token);
+bot.login(token);
